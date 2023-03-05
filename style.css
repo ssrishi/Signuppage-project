@@ -216,9 +216,13 @@ body{
         width: 45%;
     }
     #email,#password{
-        width: 230px;
+        width: 300px;
     }
-    .checkbox>span,.fpass>span{
+    .checkbox>span{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .fpass>span{
         font-size: 15px;
         margin-left: -15px;
     }
