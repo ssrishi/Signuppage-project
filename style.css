@@ -207,7 +207,7 @@ body{
         font-size: 1.7rem;       
     }
     .google-sign,.apple-sign,.sign-in{
-        width: 280px;
+        width: 320px;
     }
     .apple-sign>span,.google-sign>span{
         font-size: 14px;
