@@ -194,7 +194,7 @@ body{
 }
 
 /* mobile responsive */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
     .img1,.img2,.text-area,.quote{
         opacity: 0;
     }
