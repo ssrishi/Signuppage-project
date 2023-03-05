@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.side{
+    display: flex;
+}
+.img1{
+    position: relative;
+    border-radius: 10%;
+    left: -60px;
+}
+.img2{
+    position: absolute;
+    top: 70px;
+    left: 80px; 
+    border-radius: 10%;
+}
+.logo{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+.text-area{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    line-height: 40px;
+}
+.text-area>h1{
+    color: #fff;
+    font-size: 40px;
+}
+.text-area>p{
+    color: #233c7b;
+    
+    font-size: 25px;
+}
+.quote::before{
+    content: "“";
+    font-size: 8rem;
+    color: #233c7b;
+    position: relative;
+    bottom:-100px;
+}
+.quote{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    width: 400px;
+}
+.quote>p{
+    position: relative;
+    top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.quote>span{
+    position: absolute;
+    right: 10px;
+    top: 230px;
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Right Side Designing */
+.right-side{
+    position: relative;
+    top: 40px;
+    left:120px;
+}
+.right-side>h1{
+    color: #233c7b;
+    font-size: 3rem;
+}
+.google-sign{
+    display:flex;
+    padding: 15px 30px 15px 16px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+    width: 320px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.google-sign>img{
+    margin-right: 10px;
+}
+.google-sign>span{
+    color: #858585;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.apple-sign{
+    display:flex;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 15px 30px 15px 16px;
+    background: #fff;
+    text-align: left;
+    width: 320px;
+    border: 1px solid ;
+    border-radius: 10px;   
+}
+.apple-sign>img{
+    margin-right: 10px;
+}
+.apple-sign>span{
+    color: #858585;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+.divider::before{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width:46%;
+    background-color: #858585;
+}
+.divider>span{
+    color: #858585;
+    font-size: 20px;
+    position: relative;
+    top: 5px;    
+}
+.divider::after{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width:46%;
+    background-color: #858585;
+}
+#email{
+    margin-top: 10px;
+    padding: 15px 30px 15px 16px;
+    background: #fff;
+    text-align: left;
+    width: 270px;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#password{
+    margin-top: 10px;
+    padding: 15px 30px 15px 16px;
+    background: #fff;
+    text-align: left;
+    width: 270px;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.checkbox{
+    margin-top: 15px;
+}
+.checkbox>span{
+    color: #858585;
+    font-size: 17px;
+    font-weight: 500;
+}        
+.fpass{
+    margin-left: 80px;
+    color: #233c7b;
+    text-decoration: none;
+}
+.sign-in{
+    margin-top: 10px;
+    padding: 15px 30px 15px 16px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+    width: 320px;
+    border: 1px solid ;
+    text-align: center;
+    border-radius: 10px;   
+    background-color: #233c7b;
+    color: #fff;
+    font-size: 18px;
+}
+.text-under-form{
+    text-align: center;
+    margin-top: 10px;
+    color: #858585;
+    font-size: 18px;
+}
+.text-under-form>a{
+    color: #233c7b;
+    text-decoration: none;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 480px){
+    .left-side{
+        opacity: 0;
+    }
+    .right-side{
+        position: absolute;
+        top: 20px;
+        left: 50px;
+    }
+}
