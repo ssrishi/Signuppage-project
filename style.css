@@ -69,7 +69,7 @@ body{
 .right-side{
     position: relative;
     top: 40px;
-    left:30px;
+    left:60px;
 }
 .right-side>h1{
     color: #233c7b;
@@ -218,12 +218,9 @@ body{
     #email,#password{
         width: 300px;
     }
-    .checkbox>span{
+    .checkbox>span,.fpass>span{
         font-size: 15px;
-    }
-    .fpass>span{
-        font-size: 15px;
-        margin-left: -5px;
+        margin-left: -15px;
     }
     .sign-in,.text-under-form>span,.text-under-form>a{
         font-size: 15px;
