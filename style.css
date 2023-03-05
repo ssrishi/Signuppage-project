@@ -194,13 +194,40 @@ body{
 }
 
 /* mobile responsive */
-@media screen and (max-width: 480px){
-    .left-side{
+@media screen and (max-width: 320px){
+    .img1,.img2,.text-area,.quote{
         opacity: 0;
     }
     .right-side{
         position: absolute;
-        top: 20px;
-        left: 50px;
+        top: 90px;
+        left: 20px;
+    }
+    .right-side>h1{
+        font-size: 1.7rem;       
+    }
+    .google-sign,.apple-sign,.sign-in{
+        width: 280px;
+    }
+    .apple-sign>span,.google-sign>span{
+        font-size: 14px;
+    }
+    .divider::before,.divider::after{
+        width: 45%;
+    }
+    #email,#password{
+        width: 230px;
+    }
+    .checkbox>span,.fpass>span{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .sign-in,.text-under-form>span,.text-under-form>a{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .logo{
+        position: absolute;
+        top: 25px;
     }
 }
