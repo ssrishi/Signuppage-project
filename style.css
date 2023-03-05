@@ -69,7 +69,7 @@ body{
 .right-side{
     position: relative;
     top: 40px;
-    left:120px;
+    left:100px;
 }
 .right-side>h1{
     color: #233c7b;
